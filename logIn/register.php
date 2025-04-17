@@ -18,7 +18,7 @@ function sendVerificationEmail($email, $v_code) {
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
         $mail->Port       = 465;
 
-        $mail->setFrom('your@gmail.com', 'Your App Name');
+        $mail->setFrom('rajmohan6982@gmail.com', 'Raj Mo');
         $mail->addAddress($email);
 
         $mail->isHTML(true);
