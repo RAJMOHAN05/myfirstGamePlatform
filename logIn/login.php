@@ -8,12 +8,12 @@ function sendLoginNotification($email) {
         $mail->isSMTP();
         $mail->Host       = 'smtp.gmail.com';
         $mail->SMTPAuth   = true;
-        $mail->Username   = 'your@gmail.com';
-        $mail->Password   = 'your-app-password';
+        $mail->Username   = 'rajmohan6982@gmail.com';
+        $mail->Password   = 'rryuqjotztyuyytc';
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
         $mail->Port       = 465;
 
-        $mail->setFrom('your@gmail.com', 'Your App Name');
+        $mail->setFrom('rajmohan6982@gmail.com', 'Raj Mo');
         $mail->addAddress($email);
 
         $mail->isHTML(true);
