@@ -9,7 +9,7 @@ function sendLoginNotification($email) {
         $mail->Host       = 'smtp.gmail.com';
         $mail->SMTPAuth   = true;
         $mail->Username   = 'rajmohan6982@gmail.com';
-        $mail->Password   = 'rryuqjotztyuyytc';
+        $mail->Password   = 'App Pasword';
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
         $mail->Port       = 465;
 
